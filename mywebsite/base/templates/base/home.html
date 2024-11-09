@@ -1,0 +1,94 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Swetha Pooduru</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/me1-Photoroom.png' %}" >
+					<hr>
+					<h4>Hello, I'm Swetha</h4>
+					<p>Curious thinker focused on Research, Problem-solving</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+					<hr>
+					<p>I am a student graduating in AI & ML, with foundational to intermediate skills in Machine
+                        Learning and Analytics. My interest in data-driven decision-making and problem-solving
+                        drives my commitment to continuous learning.</p>
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/linedin_logo.png' %}"></li>
+						<li><img class="social" src="{% static 'images/github_logo.png' %}"></li>
+						<li><img class="social" src="{% static 'images/gmail_logo.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience</h5>
+					<hr>
+					<p> AI&ML Research Intern at Emagia Corporation</p>
+					<p>Developed solutions and evaluated algorithms for handwriting recognition, utilizing
+                        pretrained models like ImageNet and implementing CNN-BLSTM.</p>
+                    </div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, Sql(Mysql), Power BI, MS Excel</p>
+					<p>Working on Django, Data Analysis and Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Education</h5>
+					<hr>
+					<p>Bachelor of Engineering degree in Osmania University(2021-2025). CGPA: 8</p>
+
+					<p>Intermediate in Sri Gayathri Junior College (2019-2021). Percentage: 98</p>
+                </div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Certifications and Courses</h5>
+				<hr>
+				<p>Power BI beginner course and certification by Great Learning</p>
+                <p>Machine Learning A-Z course  and certification by Udemy.</p>
+                <p>Prompt Engineering short course by DeepLearning.AI</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
